@@ -1,424 +1,583 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <title>Title</title>
     <!-- Required meta tags -->
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
 
     <!-- Bootstrap CSS v5.2.1 -->
-    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css" />
-</head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous"> 
+  </head>
 
-<body>
+  <body>
     <header>
-        <!-- place navbar here -->
-        <nav class="navbar navbar-expand-lg bg-body-secondary">
-            <div class="container">
-                <a class="navbar-brand fw-bold" href="#">Abacus Convention Center</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                    aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">About Us</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Contact</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Subscribe</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-        <div id="carouselExampleCaptions" class="carousel slide">
-            <div class="carousel-indicators">
-                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
-                    aria-current="true" aria-label="Slide 1"></button>
-                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
-                    aria-label="Slide 2"></button>
-                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
-                    aria-label="Slide 3"></button>
-            </div>
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <img src="./images/banner.png" class="d-block w-100" style="height: 90vh" alt="..." />
-                    <div class="carousel-caption d-md-block">
-                        <h2 class="display-5 fw-bold w-75 mx-auto">
-                            The perfect venue for your next event
-                        </h2>
-                        <p>
-                            Amet minim mollit non deserunt ullamco est sit aliqua dolor do
-                            amet sint. Velit officia conse quat duis enim velit
-                        </p>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <img src="./images/people.png" class="d-block w-100" style="height: 90vh" alt="..." />
-                    <div class="carousel-caption d-md-block">
-                        <h2 class="display-5 fw-bold w-75 mx-auto">
-                            The perfect venue for your next event
-                        </h2>
-                        <p>
-                            Amet minim mollit non deserunt ullamco est sit aliqua dolor do
-                            amet sint. Velit officia conse quat duis enim velit
-                        </p>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <img src="./images/wedding.png" class="d-block w-100" style="height: 90vh" alt="..." />
-                    <div class="carousel-caption d-md-block">
-                        <h2 class="display-5 fw-bold w-75 mx-auto">
-                            The perfect venue for your next event
-                        </h2>
-                        <p>
-                            Amet minim mollit non deserunt ullamco est sit aliqua dolor do
-                            amet sint. Velit officia conse quat duis enim velit
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
-                data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
-                data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-            </button>
+      <!-- place navbar here -->
+      <nav class="navbar navbar-expand-lg bg-body-secondary">
+        <div class="container">
+          <a class="navbar-brand fw-bold" href="#">Abacus Convention Center</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Subscribe</a>
+              </li>
+            </ul>
+          </div>
         </div>
+      </nav>
+      <div id="carouselExampleCaptions" class="carousel slide">
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              src="./images/banner.png"
+              class="d-block w-100"
+              style="height: 90vh"
+              alt="..."
+            />
+            <div class="carousel-caption d-md-block">
+              <h2 class="display-5 fw-bold w-75 mx-auto">
+                The perfect venue for your next event
+              </h2>
+              <p>
+                Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+                amet sint. Velit officia conse quat duis enim velit
+              </p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="./images/people.png"
+              class="d-block w-100"
+              style="height: 90vh"
+              alt="..."
+            />
+            <div class="carousel-caption d-md-block">
+              <h2 class="display-5 fw-bold w-75 mx-auto">
+                The perfect venue for your next event
+              </h2>
+              <p>
+                Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+                amet sint. Velit officia conse quat duis enim velit
+              </p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="./images/wedding.png"
+              class="d-block w-100"
+              style="height: 90vh"
+              alt="..."
+            />
+            <div class="carousel-caption d-md-block">
+              <h2 class="display-5 fw-bold w-75 mx-auto">
+                The perfect venue for your next event
+              </h2>
+              <p>
+                Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+                amet sint. Velit officia conse quat duis enim velit
+              </p>
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
     </header>
     <main class="container">
-        <!-- wadding -->
-        <section class="py-5">
-            <div class="row flex-column-reverse flex-md-row gap-3 gap-md-0 align-items-center">
-                <div class="col-12 d-block d-md-none text-center">
-                    <button class="btn btn-primary">Explore our album</button>
+      <!-- wadding -->
+      <section class="py-5">
+        <div
+          class="row flex-column-reverse flex-md-row gap-3 gap-md-0 align-items-center"
+        >
+          <div class="col-12 d-block d-md-none text-center">
+            <button class="btn btn-primary">Explore our album</button>
+          </div>
+          <div class="col-12 col-md-6">
+            <img src="./images/wedding.png" class="img-fluid" alt="" />
+          </div>
+          <div class="col-12 col-md-6">
+            <h2 class="">Every moment is Precious</h2>
+            <p class="">
+              Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+              amet sint. Velit officia consequat duis enim velit mollit.
+              Exercitation veniam consequat sunt nostrud amet.
+            </p>
+            <button class="btn btn-primary d-none d-md-block">
+              Explore our album
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <!-- package -->
+
+      <section class="pb-5">
+        <h3 class="h2 mb-5 text-center">Our package</h3>
+        <div class="row">
+          <div class="col-md-4 col-lg-3 mb-3 shadow">
+            <div class="p-4 bg-primary rounded text-light position-relative">
+              <span
+                class="position-absolute top-0 end-0 translate-middle badge rounded-pill bg-danger"
+              >
+                99+
+                <span class="visually-hidden">unread messages</span>
+              </span>
+              <h2 class="h1">$300</h2>
+              <h3 class="h3">Business fair</h3>
+              <p class="">
+                For most businesses event like book fair, craft fair.
+              </p>
+              <div class="d-flex flex-column gap-1">
+                <div class="d-flex align-items-center gap-2">
+                  <div
+                    class="bg-dark-subtle rounded-circle d-flex align-items-center justify-content-center"
+                    style="width: 2rem; height: 2rem"
+                  >
+                    <svg
+                      width="12"
+                      height="10"
+                      viewBox="0 0 12 10"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M11.7724 1.83337L6.06825 9.57421C5.93221 9.7547 5.72936 9.87296 5.50527 9.90242C5.28118 9.93188 5.05465 9.87007 4.87659 9.73087L0.803253 6.47421C0.443808 6.18656 0.385605 5.66199 0.673253 5.30254C0.960902 4.94309 1.48547 4.88489 1.84492 5.17254L5.24159 7.89004L10.4308 0.84754C10.6009 0.592198 10.8976 0.451025 11.2031 0.480071C11.5086 0.509117 11.7734 0.703681 11.8923 0.986517C12.0113 1.26935 11.9653 1.59469 11.7724 1.83337Z"
+                        fill="#5243C2"
+                      />
+                    </svg>
+                  </div>
+                  <p class="m-0">limited space access</p>
                 </div>
-                <div class="col-12 col-md-6">
-                    <img src="./images/wedding.png" class="img-fluid" alt="" />
+                <div class="d-flex align-items-center gap-2">
+                  <div
+                    class="bg-dark-subtle rounded-circle d-flex align-items-center justify-content-center"
+                    style="width: 2rem; height: 2rem"
+                  >
+                    <svg
+                      width="12"
+                      height="10"
+                      viewBox="0 0 12 10"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M11.7724 1.83337L6.06825 9.57421C5.93221 9.7547 5.72936 9.87296 5.50527 9.90242C5.28118 9.93188 5.05465 9.87007 4.87659 9.73087L0.803253 6.47421C0.443808 6.18656 0.385605 5.66199 0.673253 5.30254C0.960902 4.94309 1.48547 4.88489 1.84492 5.17254L5.24159 7.89004L10.4308 0.84754C10.6009 0.592198 10.8976 0.451025 11.2031 0.480071C11.5086 0.509117 11.7734 0.703681 11.8923 0.986517C12.0113 1.26935 11.9653 1.59469 11.7724 1.83337Z"
+                        fill="#5243C2"
+                      />
+                    </svg>
+                  </div>
+                  <p class="m-0">limited space access</p>
                 </div>
-                <div class="col-12 col-md-6">
-                    <h2 class="">Every moment is Precious</h2>
-                    <p class="">
-                        Amet minim mollit non deserunt ullamco est sit aliqua dolor do
-                        amet sint. Velit officia consequat duis enim velit mollit.
-                        Exercitation veniam consequat sunt nostrud amet.
-                    </p>
-                    <button class="btn btn-primary d-none d-md-block">
-                        Explore our album
-                    </button>
-                </div>
+              </div>
+              <button
+                class="btn w-100 d-block btn-light rounded-pill mt-3 text-center"
+              >
+                Choose plan
+              </button>
             </div>
-        </section>
-
-        <!-- package -->
-
-        <section class="pb-5">
-            <h3 class="h2 mb-5 text-center">Our package</h3>
-            <div class="row">
-                <div class="col-md-4 col-lg-3 mb-3 shadow ">
-                    <div class="p-4 bg-primary rounded text-light position-relative">
-                        <span class="position-absolute top-0 end-0 translate-middle badge rounded-pill bg-danger">
-                            99+
-                            <span class="visually-hidden">unread messages</span>
-                        </span>
-                        <h2 class="h1">$300</h2>
-                        <h3 class="h3">Business fair</h3>
-                        <p class="">
-                            For most businesses event like book fair, craft fair.
-                        </p>
-                        <div class="d-flex flex-column gap-1">
-                            <div class="d-flex align-items-center gap-2">
-                                <div class="bg-dark-subtle rounded-circle d-flex align-items-center justify-content-center"
-                                    style="width: 2rem; height: 2rem">
-                                    <svg width="12" height="10" viewBox="0 0 12 10" fill="none"
-                                        xmlns="http://www.w3.org/2000/svg">
-                                        <path
-                                            d="M11.7724 1.83337L6.06825 9.57421C5.93221 9.7547 5.72936 9.87296 5.50527 9.90242C5.28118 9.93188 5.05465 9.87007 4.87659 9.73087L0.803253 6.47421C0.443808 6.18656 0.385605 5.66199 0.673253 5.30254C0.960902 4.94309 1.48547 4.88489 1.84492 5.17254L5.24159 7.89004L10.4308 0.84754C10.6009 0.592198 10.8976 0.451025 11.2031 0.480071C11.5086 0.509117 11.7734 0.703681 11.8923 0.986517C12.0113 1.26935 11.9653 1.59469 11.7724 1.83337Z"
-                                            fill="#5243C2" />
-                                    </svg>
-                                </div>
-                                <p class="m-0">limited space access</p>
-                            </div>
-                            <div class="d-flex align-items-center gap-2">
-                                <div class="bg-dark-subtle rounded-circle d-flex align-items-center justify-content-center"
-                                    style="width: 2rem; height: 2rem">
-                                    <svg width="12" height="10" viewBox="0 0 12 10" fill="none"
-                                        xmlns="http://www.w3.org/2000/svg">
-                                        <path
-                                            d="M11.7724 1.83337L6.06825 9.57421C5.93221 9.7547 5.72936 9.87296 5.50527 9.90242C5.28118 9.93188 5.05465 9.87007 4.87659 9.73087L0.803253 6.47421C0.443808 6.18656 0.385605 5.66199 0.673253 5.30254C0.960902 4.94309 1.48547 4.88489 1.84492 5.17254L5.24159 7.89004L10.4308 0.84754C10.6009 0.592198 10.8976 0.451025 11.2031 0.480071C11.5086 0.509117 11.7734 0.703681 11.8923 0.986517C12.0113 1.26935 11.9653 1.59469 11.7724 1.83337Z"
-                                            fill="#5243C2" />
-                                    </svg>
-                                </div>
-                                <p class="m-0">limited space access</p>
-                            </div>
-                        </div>
-                        <button class="btn w-100 d-block btn-light rounded-pill mt-3 text-center">
-                            Choose plan
-                        </button>
-                    </div>
+          </div>
+          <div class="col-md-4 col-lg-3 mb-3 shadow">
+            <div class="p-4">
+              <h2 class="h1">$300</h2>
+              <h3 class="h3">Business fair</h3>
+              <p class="">
+                For most businesses event like book fair, craft fair.
+              </p>
+              <div class="d-flex flex-column gap-1">
+                <div class="d-flex align-items-center gap-2">
+                  <div
+                    class="bg-dark-subtle rounded-circle d-flex align-items-center justify-content-center"
+                    style="width: 2rem; height: 2rem"
+                  >
+                    <svg
+                      width="12"
+                      height="10"
+                      viewBox="0 0 12 10"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M11.7724 1.83337L6.06825 9.57421C5.93221 9.7547 5.72936 9.87296 5.50527 9.90242C5.28118 9.93188 5.05465 9.87007 4.87659 9.73087L0.803253 6.47421C0.443808 6.18656 0.385605 5.66199 0.673253 5.30254C0.960902 4.94309 1.48547 4.88489 1.84492 5.17254L5.24159 7.89004L10.4308 0.84754C10.6009 0.592198 10.8976 0.451025 11.2031 0.480071C11.5086 0.509117 11.7734 0.703681 11.8923 0.986517C12.0113 1.26935 11.9653 1.59469 11.7724 1.83337Z"
+                        fill="#5243C2"
+                      />
+                    </svg>
+                  </div>
+                  <p class="m-0">limited space access</p>
                 </div>
-                <div class="col-md-4 col-lg-3 mb-3 shadow">
-                    <div class="p-4">
-                        <h2 class="h1">$300</h2>
-                        <h3 class="h3">Business fair</h3>
-                        <p class="">
-                            For most businesses event like book fair, craft fair.
-                        </p>
-                        <div class="d-flex flex-column gap-1">
-                            <div class="d-flex align-items-center gap-2">
-                                <div class="bg-dark-subtle rounded-circle d-flex align-items-center justify-content-center"
-                                    style="width: 2rem; height: 2rem">
-                                    <svg width="12" height="10" viewBox="0 0 12 10" fill="none"
-                                        xmlns="http://www.w3.org/2000/svg">
-                                        <path
-                                            d="M11.7724 1.83337L6.06825 9.57421C5.93221 9.7547 5.72936 9.87296 5.50527 9.90242C5.28118 9.93188 5.05465 9.87007 4.87659 9.73087L0.803253 6.47421C0.443808 6.18656 0.385605 5.66199 0.673253 5.30254C0.960902 4.94309 1.48547 4.88489 1.84492 5.17254L5.24159 7.89004L10.4308 0.84754C10.6009 0.592198 10.8976 0.451025 11.2031 0.480071C11.5086 0.509117 11.7734 0.703681 11.8923 0.986517C12.0113 1.26935 11.9653 1.59469 11.7724 1.83337Z"
-                                            fill="#5243C2" />
-                                    </svg>
-                                </div>
-                                <p class="m-0">limited space access</p>
-                            </div>
-                            <div class="d-flex align-items-center gap-2">
-                                <div class="bg-dark-subtle rounded-circle d-flex align-items-center justify-content-center"
-                                    style="width: 2rem; height: 2rem">
-                                    <svg width="12" height="10" viewBox="0 0 12 10" fill="none"
-                                        xmlns="http://www.w3.org/2000/svg">
-                                        <path
-                                            d="M11.7724 1.83337L6.06825 9.57421C5.93221 9.7547 5.72936 9.87296 5.50527 9.90242C5.28118 9.93188 5.05465 9.87007 4.87659 9.73087L0.803253 6.47421C0.443808 6.18656 0.385605 5.66199 0.673253 5.30254C0.960902 4.94309 1.48547 4.88489 1.84492 5.17254L5.24159 7.89004L10.4308 0.84754C10.6009 0.592198 10.8976 0.451025 11.2031 0.480071C11.5086 0.509117 11.7734 0.703681 11.8923 0.986517C12.0113 1.26935 11.9653 1.59469 11.7724 1.83337Z"
-                                            fill="#5243C2" />
-                                    </svg>
-                                </div>
-                                <p class="m-0">limited space access</p>
-                            </div>
-                        </div>
-                        <button class="btn w-100 d-block btn-primary rounded-pill mt-3 text-center">
-                            Choose plan
-                        </button>
-                    </div>
+                <div class="d-flex align-items-center gap-2">
+                  <div
+                    class="bg-dark-subtle rounded-circle d-flex align-items-center justify-content-center"
+                    style="width: 2rem; height: 2rem"
+                  >
+                    <svg
+                      width="12"
+                      height="10"
+                      viewBox="0 0 12 10"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M11.7724 1.83337L6.06825 9.57421C5.93221 9.7547 5.72936 9.87296 5.50527 9.90242C5.28118 9.93188 5.05465 9.87007 4.87659 9.73087L0.803253 6.47421C0.443808 6.18656 0.385605 5.66199 0.673253 5.30254C0.960902 4.94309 1.48547 4.88489 1.84492 5.17254L5.24159 7.89004L10.4308 0.84754C10.6009 0.592198 10.8976 0.451025 11.2031 0.480071C11.5086 0.509117 11.7734 0.703681 11.8923 0.986517C12.0113 1.26935 11.9653 1.59469 11.7724 1.83337Z"
+                        fill="#5243C2"
+                      />
+                    </svg>
+                  </div>
+                  <p class="m-0">limited space access</p>
                 </div>
-                <div class="col-md-4 col-lg-3 mb-3 shadow">
-                    <div class="p-4">
-                        <h2 class="h1">$300</h2>
-                        <h3 class="h3">Business fair</h3>
-                        <p class="">
-                            For most businesses event like book fair, craft fair.
-                        </p>
-                        <div class="d-flex flex-column gap-1">
-                            <div class="d-flex align-items-center gap-2">
-                                <div class="bg-dark-subtle rounded-circle d-flex align-items-center justify-content-center"
-                                    style="width: 2rem; height: 2rem">
-                                    <svg width="12" height="10" viewBox="0 0 12 10" fill="none"
-                                        xmlns="http://www.w3.org/2000/svg">
-                                        <path
-                                            d="M11.7724 1.83337L6.06825 9.57421C5.93221 9.7547 5.72936 9.87296 5.50527 9.90242C5.28118 9.93188 5.05465 9.87007 4.87659 9.73087L0.803253 6.47421C0.443808 6.18656 0.385605 5.66199 0.673253 5.30254C0.960902 4.94309 1.48547 4.88489 1.84492 5.17254L5.24159 7.89004L10.4308 0.84754C10.6009 0.592198 10.8976 0.451025 11.2031 0.480071C11.5086 0.509117 11.7734 0.703681 11.8923 0.986517C12.0113 1.26935 11.9653 1.59469 11.7724 1.83337Z"
-                                            fill="#5243C2" />
-                                    </svg>
-                                </div>
-                                <p class="m-0">limited space access</p>
-                            </div>
-                            <div class="d-flex align-items-center gap-2">
-                                <div class="bg-dark-subtle rounded-circle d-flex align-items-center justify-content-center"
-                                    style="width: 2rem; height: 2rem">
-                                    <svg width="12" height="10" viewBox="0 0 12 10" fill="none"
-                                        xmlns="http://www.w3.org/2000/svg">
-                                        <path
-                                            d="M11.7724 1.83337L6.06825 9.57421C5.93221 9.7547 5.72936 9.87296 5.50527 9.90242C5.28118 9.93188 5.05465 9.87007 4.87659 9.73087L0.803253 6.47421C0.443808 6.18656 0.385605 5.66199 0.673253 5.30254C0.960902 4.94309 1.48547 4.88489 1.84492 5.17254L5.24159 7.89004L10.4308 0.84754C10.6009 0.592198 10.8976 0.451025 11.2031 0.480071C11.5086 0.509117 11.7734 0.703681 11.8923 0.986517C12.0113 1.26935 11.9653 1.59469 11.7724 1.83337Z"
-                                            fill="#5243C2" />
-                                    </svg>
-                                </div>
-                                <p class="m-0">limited space access</p>
-                            </div>
-                        </div>
-                        <button class="btn w-100 d-block btn-primary rounded-pill mt-3 text-center">
-                            Choose plan
-                        </button>
-                    </div>
-                </div>
-                <div class="col-md-4 col-lg-3 mb-3 shadow">
-                    <div class="p-4">
-                        <h2 class="h1">$300</h2>
-                        <h3 class="h3">Business fair</h3>
-                        <p class="">
-                            For most businesses event like book fair, craft fair.
-                        </p>
-                        <div class="d-flex flex-column gap-1">
-                            <div class="d-flex align-items-center gap-2">
-                                <div class="bg-dark-subtle rounded-circle d-flex align-items-center justify-content-center"
-                                    style="width: 2rem; height: 2rem">
-                                    <svg width="12" height="10" viewBox="0 0 12 10" fill="none"
-                                        xmlns="http://www.w3.org/2000/svg">
-                                        <path
-                                            d="M11.7724 1.83337L6.06825 9.57421C5.93221 9.7547 5.72936 9.87296 5.50527 9.90242C5.28118 9.93188 5.05465 9.87007 4.87659 9.73087L0.803253 6.47421C0.443808 6.18656 0.385605 5.66199 0.673253 5.30254C0.960902 4.94309 1.48547 4.88489 1.84492 5.17254L5.24159 7.89004L10.4308 0.84754C10.6009 0.592198 10.8976 0.451025 11.2031 0.480071C11.5086 0.509117 11.7734 0.703681 11.8923 0.986517C12.0113 1.26935 11.9653 1.59469 11.7724 1.83337Z"
-                                            fill="#5243C2" />
-                                    </svg>
-                                </div>
-                                <p class="m-0">limited space access</p>
-                            </div>
-                            <div class="d-flex align-items-center gap-2">
-                                <div class="bg-dark-subtle rounded-circle d-flex align-items-center justify-content-center"
-                                    style="width: 2rem; height: 2rem">
-                                    <svg width="12" height="10" viewBox="0 0 12 10" fill="none"
-                                        xmlns="http://www.w3.org/2000/svg">
-                                        <path
-                                            d="M11.7724 1.83337L6.06825 9.57421C5.93221 9.7547 5.72936 9.87296 5.50527 9.90242C5.28118 9.93188 5.05465 9.87007 4.87659 9.73087L0.803253 6.47421C0.443808 6.18656 0.385605 5.66199 0.673253 5.30254C0.960902 4.94309 1.48547 4.88489 1.84492 5.17254L5.24159 7.89004L10.4308 0.84754C10.6009 0.592198 10.8976 0.451025 11.2031 0.480071C11.5086 0.509117 11.7734 0.703681 11.8923 0.986517C12.0113 1.26935 11.9653 1.59469 11.7724 1.83337Z"
-                                            fill="#5243C2" />
-                                    </svg>
-                                </div>
-                                <p class="m-0">limited space access</p>
-                            </div>
-                        </div>
-                        <button class="btn w-100 d-block btn-primary rounded-pill mt-3 text-center">
-                            Choose plan
-                        </button>
-                    </div>
-                </div>
+              </div>
+              <button
+                class="btn w-100 d-block btn-primary rounded-pill mt-3 text-center"
+              >
+                Choose plan
+              </button>
             </div>
-        </section>
-
-        <section class="pb-5">
-            <h2 class="h2 text-center">Happy Clients says</h2>
-
-            <div class="row pt-5">
-                <div class="col-12 col-md-4 text-center">
-                    <div class="shadow p-3 mb-5 bg-body-tertiary rounded">
-                        <p class="">Slate helps you see how
-                            many more days you need
-                            to work to reach your financial
-                            goal for the month and year.</p>
-
-                        <img src="./images/person 1.png" alt="" class="">
-                        <h3>Regina Miles</h3>
-                        <p class="">Banker</p>
-                    </div>
+          </div>
+          <div class="col-md-4 col-lg-3 mb-3 shadow">
+            <div class="p-4">
+              <h2 class="h1">$300</h2>
+              <h3 class="h3">Business fair</h3>
+              <p class="">
+                For most businesses event like book fair, craft fair.
+              </p>
+              <div class="d-flex flex-column gap-1">
+                <div class="d-flex align-items-center gap-2">
+                  <div
+                    class="bg-dark-subtle rounded-circle d-flex align-items-center justify-content-center"
+                    style="width: 2rem; height: 2rem"
+                  >
+                    <svg
+                      width="12"
+                      height="10"
+                      viewBox="0 0 12 10"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M11.7724 1.83337L6.06825 9.57421C5.93221 9.7547 5.72936 9.87296 5.50527 9.90242C5.28118 9.93188 5.05465 9.87007 4.87659 9.73087L0.803253 6.47421C0.443808 6.18656 0.385605 5.66199 0.673253 5.30254C0.960902 4.94309 1.48547 4.88489 1.84492 5.17254L5.24159 7.89004L10.4308 0.84754C10.6009 0.592198 10.8976 0.451025 11.2031 0.480071C11.5086 0.509117 11.7734 0.703681 11.8923 0.986517C12.0113 1.26935 11.9653 1.59469 11.7724 1.83337Z"
+                        fill="#5243C2"
+                      />
+                    </svg>
+                  </div>
+                  <p class="m-0">limited space access</p>
                 </div>
-                <div class="col-12 col-md-4 text-center">
-                    <div class="shadow-lg p-3 mb-5 bg-body-tertiary rounded">
-                        <p class="">Slate helps you see how
-                            many more days you need
-                            to work to reach your financial
-                            goal for the month and year.</p>
-
-                        <img src="./images/person 1.png" alt="" class="">
-                        <h3>Regina Miles</h3>
-                        <p class="">Banker</p>
-                    </div>
+                <div class="d-flex align-items-center gap-2">
+                  <div
+                    class="bg-dark-subtle rounded-circle d-flex align-items-center justify-content-center"
+                    style="width: 2rem; height: 2rem"
+                  >
+                    <svg
+                      width="12"
+                      height="10"
+                      viewBox="0 0 12 10"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M11.7724 1.83337L6.06825 9.57421C5.93221 9.7547 5.72936 9.87296 5.50527 9.90242C5.28118 9.93188 5.05465 9.87007 4.87659 9.73087L0.803253 6.47421C0.443808 6.18656 0.385605 5.66199 0.673253 5.30254C0.960902 4.94309 1.48547 4.88489 1.84492 5.17254L5.24159 7.89004L10.4308 0.84754C10.6009 0.592198 10.8976 0.451025 11.2031 0.480071C11.5086 0.509117 11.7734 0.703681 11.8923 0.986517C12.0113 1.26935 11.9653 1.59469 11.7724 1.83337Z"
+                        fill="#5243C2"
+                      />
+                    </svg>
+                  </div>
+                  <p class="m-0">limited space access</p>
                 </div>
-                <div class="col-12 col-md-4 text-center">
-                    <div class="shadow p-3 mb-5 bg-body-tertiary rounded">
-                        <p class="">Slate helps you see how
-                            many more days you need
-                            to work to reach your financial
-                            goal for the month and year.</p>
-
-                        <img src="./images/person 1.png" alt="" class="">
-                        <h3>Regina Miles</h3>
-                        <p class="">Banker</p>
-                    </div>
-                </div>
+              </div>
+              <button
+                class="btn w-100 d-block btn-primary rounded-pill mt-3 text-center"
+              >
+                Choose plan
+              </button>
             </div>
-        </section>
-
-        <!-- Frequently Asked Questions -->
-        <section class="pb-5">
-            <h2 class="mb-5 text-center">Frequently Asked Questions</h2>
-            <div class="row gap-4 gap-md-0">
-                <div class="col-12 col-md-6">
-                    <div class="accordion" id="accordionPanelsStayOpenExample">
-                        <div class="accordion-item">
-                            <h2 class="accordion-header" id="panelsStayOpen-headingOne">
-                                <button class="accordion-button" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true"
-                                    aria-controls="panelsStayOpen-collapseOne">
-                                    Accordion Item #1
-                                </button>
-                            </h2>
-                            <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show"
-                                aria-labelledby="panelsStayOpen-headingOne">
-                                <div class="accordion-body">
-                                    <strong>This is the first item's accordion body.</strong> It is shown by default,
-                                    until the collapse plugin adds the appropriate classes that we use to style each
-                                    element. These classes control the overall appearance, as well as the showing and
-                                    hiding via CSS transitions. You can modify any of this with custom CSS or overriding
-                                    our default variables. It's also worth noting that just about any HTML can go within
-                                    the <code>.accordion-body</code>, though the transition does limit overflow.
-                                </div>
-                            </div>
-                        </div>
-                        <div class="accordion-item">
-                            <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false"
-                                    aria-controls="panelsStayOpen-collapseTwo">
-                                    Accordion Item #2
-                                </button>
-                            </h2>
-                            <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse"
-                                aria-labelledby="panelsStayOpen-headingTwo">
-                                <div class="accordion-body">
-                                    <strong>This is the second item's accordion body.</strong> It is hidden by default,
-                                    until the collapse plugin adds the appropriate classes that we use to style each
-                                    element. These classes control the overall appearance, as well as the showing and
-                                    hiding via CSS transitions. You can modify any of this with custom CSS or overriding
-                                    our default variables. It's also worth noting that just about any HTML can go within
-                                    the <code>.accordion-body</code>, though the transition does limit overflow.
-                                </div>
-                            </div>
-                        </div>
-                        <div class="accordion-item">
-                            <h2 class="accordion-header" id="panelsStayOpen-headingThree">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false"
-                                    aria-controls="panelsStayOpen-collapseThree">
-                                    Accordion Item #3
-                                </button>
-                            </h2>
-                            <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse"
-                                aria-labelledby="panelsStayOpen-headingThree">
-                                <div class="accordion-body">
-                                    <strong>This is the third item's accordion body.</strong> It is hidden by default,
-                                    until the collapse plugin adds the appropriate classes that we use to style each
-                                    element. These classes control the overall appearance, as well as the showing and
-                                    hiding via CSS transitions. You can modify any of this with custom CSS or overriding
-                                    our default variables. It's also worth noting that just about any HTML can go within
-                                    the <code>.accordion-body</code>, though the transition does limit overflow.
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+          </div>
+          <div class="col-md-4 col-lg-3 mb-3 shadow">
+            <div class="p-4">
+              <h2 class="h1">$300</h2>
+              <h3 class="h3">Business fair</h3>
+              <p class="">
+                For most businesses event like book fair, craft fair.
+              </p>
+              <div class="d-flex flex-column gap-1">
+                <div class="d-flex align-items-center gap-2">
+                  <div
+                    class="bg-dark-subtle rounded-circle d-flex align-items-center justify-content-center"
+                    style="width: 2rem; height: 2rem"
+                  >
+                    <svg
+                      width="12"
+                      height="10"
+                      viewBox="0 0 12 10"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M11.7724 1.83337L6.06825 9.57421C5.93221 9.7547 5.72936 9.87296 5.50527 9.90242C5.28118 9.93188 5.05465 9.87007 4.87659 9.73087L0.803253 6.47421C0.443808 6.18656 0.385605 5.66199 0.673253 5.30254C0.960902 4.94309 1.48547 4.88489 1.84492 5.17254L5.24159 7.89004L10.4308 0.84754C10.6009 0.592198 10.8976 0.451025 11.2031 0.480071C11.5086 0.509117 11.7734 0.703681 11.8923 0.986517C12.0113 1.26935 11.9653 1.59469 11.7724 1.83337Z"
+                        fill="#5243C2"
+                      />
+                    </svg>
+                  </div>
+                  <p class="m-0">limited space access</p>
                 </div>
-                <div class="col-12 col-md-6">
-                    <img src="./images/people.png" alt="" class="img-fluid">
+                <div class="d-flex align-items-center gap-2">
+                  <div
+                    class="bg-dark-subtle rounded-circle d-flex align-items-center justify-content-center"
+                    style="width: 2rem; height: 2rem"
+                  >
+                    <svg
+                      width="12"
+                      height="10"
+                      viewBox="0 0 12 10"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M11.7724 1.83337L6.06825 9.57421C5.93221 9.7547 5.72936 9.87296 5.50527 9.90242C5.28118 9.93188 5.05465 9.87007 4.87659 9.73087L0.803253 6.47421C0.443808 6.18656 0.385605 5.66199 0.673253 5.30254C0.960902 4.94309 1.48547 4.88489 1.84492 5.17254L5.24159 7.89004L10.4308 0.84754C10.6009 0.592198 10.8976 0.451025 11.2031 0.480071C11.5086 0.509117 11.7734 0.703681 11.8923 0.986517C12.0113 1.26935 11.9653 1.59469 11.7724 1.83337Z"
+                        fill="#5243C2"
+                      />
+                    </svg>
+                  </div>
+                  <p class="m-0">limited space access</p>
                 </div>
+              </div>
+              <button
+                class="btn w-100 d-block btn-primary rounded-pill mt-3 text-center"
+              >
+                Choose plan
+              </button>
             </div>
-        </section>
+          </div>
+        </div>
+      </section>
 
+      <section class="pb-5">
+        <h2 class="h2 text-center">Happy Clients says</h2>
 
+        <div class="row pt-5">
+          <div class="col-12 col-md-4 text-center">
+            <div class="shadow p-3 mb-5 bg-body-tertiary rounded">
+              <p class="">
+                Slate helps you see how many more days you need to work to reach
+                your financial goal for the month and year.
+              </p>
+
+              <img src="./images/person 1.png" alt="" class="" />
+              <h3>Regina Miles</h3>
+              <p class="">Banker</p>
+            </div>
+          </div>
+          <div class="col-12 col-md-4 text-center">
+            <div class="shadow-lg p-3 mb-5 bg-body-tertiary rounded">
+              <p class="">
+                Slate helps you see how many more days you need to work to reach
+                your financial goal for the month and year.
+              </p>
+
+              <img src="./images/person 1.png" alt="" class="" />
+              <h3>Regina Miles</h3>
+              <p class="">Banker</p>
+            </div>
+          </div>
+          <div class="col-12 col-md-4 text-center">
+            <div class="shadow p-3 mb-5 bg-body-tertiary rounded">
+              <p class="">
+                Slate helps you see how many more days you need to work to reach
+                your financial goal for the month and year.
+              </p>
+
+              <img src="./images/person 1.png" alt="" class="" />
+              <h3>Regina Miles</h3>
+              <p class="">Banker</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Frequently Asked Questions -->
+      <section class="pb-5">
+        <h2 class="mb-5 text-center">Frequently Asked Questions</h2>
+        <div class="row gap-4 gap-md-0">
+          <div class="col-12 col-md-6">
+            <div class="accordion" id="accordionPanelsStayOpenExample">
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+                  <button
+                    class="accordion-button"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#panelsStayOpen-collapseOne"
+                    aria-expanded="true"
+                    aria-controls="panelsStayOpen-collapseOne"
+                  >
+                    Accordion Item #1
+                  </button>
+                </h2>
+                <div
+                  id="panelsStayOpen-collapseOne"
+                  class="accordion-collapse collapse show"
+                  aria-labelledby="panelsStayOpen-headingOne"
+                >
+                  <div class="accordion-body">
+                    <strong>This is the first item's accordion body.</strong> It
+                    is shown by default, until the collapse plugin adds the
+                    appropriate classes that we use to style each element. These
+                    classes control the overall appearance, as well as the
+                    showing and hiding via CSS transitions. You can modify any
+                    of this with custom CSS or overriding our default variables.
+                    It's also worth noting that just about any HTML can go
+                    within the <code>.accordion-body</code>, though the
+                    transition does limit overflow.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#panelsStayOpen-collapseTwo"
+                    aria-expanded="false"
+                    aria-controls="panelsStayOpen-collapseTwo"
+                  >
+                    Accordion Item #2
+                  </button>
+                </h2>
+                <div
+                  id="panelsStayOpen-collapseTwo"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="panelsStayOpen-headingTwo"
+                >
+                  <div class="accordion-body">
+                    <strong>This is the second item's accordion body.</strong>
+                    It is hidden by default, until the collapse plugin adds the
+                    appropriate classes that we use to style each element. These
+                    classes control the overall appearance, as well as the
+                    showing and hiding via CSS transitions. You can modify any
+                    of this with custom CSS or overriding our default variables.
+                    It's also worth noting that just about any HTML can go
+                    within the <code>.accordion-body</code>, though the
+                    transition does limit overflow.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#panelsStayOpen-collapseThree"
+                    aria-expanded="false"
+                    aria-controls="panelsStayOpen-collapseThree"
+                  >
+                    Accordion Item #3
+                  </button>
+                </h2>
+                <div
+                  id="panelsStayOpen-collapseThree"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="panelsStayOpen-headingThree"
+                >
+                  <div class="accordion-body">
+                    <strong>This is the third item's accordion body.</strong> It
+                    is hidden by default, until the collapse plugin adds the
+                    appropriate classes that we use to style each element. These
+                    classes control the overall appearance, as well as the
+                    showing and hiding via CSS transitions. You can modify any
+                    of this with custom CSS or overriding our default variables.
+                    It's also worth noting that just about any HTML can go
+                    within the <code>.accordion-body</code>, though the
+                    transition does limit overflow.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6">
+            <img src="./images/people.png" alt="" class="img-fluid" />
+          </div>
+        </div>
+      </section>
     </main>
     <footer class="bg-dark py-5">
-        <!-- place footer here -->
-        <div class="container d-flex justify-content-between align-items-center">
-            <p class="text-light m-0">© 2020 bike. All rights reserved </p>
-            <div class="text-light">
-                <p class="m-0">Get the Appfafa</p>
-
-            </div>
+      <!-- place footer here -->
+      <div class="container d-flex justify-content-between align-items-center">
+        <p class="text-light m-0">© 2020 bike. All rights reserved</p>
+        <div class="text-light">
+          <p class="m-0">Get the Appfafa</p>
         </div>
+      </div>
     </footer>
     <!-- Bootstrap JavaScript Libraries -->
 
-    <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
-</body>
-
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+      integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"
+      integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
